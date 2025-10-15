@@ -18,7 +18,7 @@ body {
 
 
 .container {
-  width: 460px;
+  width: 570px;
   padding: 40px 30px;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
@@ -134,10 +134,19 @@ button:hover {
 }
 #powerbilogo{
   margin-top:01px;
-  width: 120px;
+  width: 150px;
   height: auto;
 
 }
+#neologo{
+  width: 170px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+#intel-logo{
+  width: 140px;
+}
+
 
 
 
