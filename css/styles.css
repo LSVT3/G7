@@ -144,7 +144,11 @@ button:hover {
   object-fit: cover;
 }
 #intel-logo{
-  width: 140px;
+  width: 150px;
+  margin-left: 10px;
+}
+#sologoid{
+  width: 85px;
 }
 
 
