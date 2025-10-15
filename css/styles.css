@@ -18,7 +18,7 @@ body {
 
 
 .container {
-  width: 350px;
+  width: 460px;
   padding: 40px 30px;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
@@ -53,7 +53,7 @@ body {
 
 .input-box i {
   position: absolute;
-  right: 12px;
+  right: 15px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 18px;
@@ -95,6 +95,20 @@ button:hover {
   filter: brightness(1.15);
 
 }
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 30px; /* espaçamento entre os ícones */
+  justify-items: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  max-width: 800px; /* opcional: limite de largura */
+  margin: 0 auto; /* centraliza o grid na página */
+  padding: 20px;
+}
+
+
+
 #firewall-logo {
   width: 100px;
   height: 100px;
@@ -110,6 +124,23 @@ button:hover {
 .hidden {
   display: none;
 }
+
+
+#checkid{
+  margin-top: 16px;
+  margin-right: 270px;
+
+
+}
+#powerbilogo{
+  margin-top:01px;
+  width: 120px;
+  height: auto;
+
+}
+
+
+
 
 
 
